@@ -1,0 +1,10 @@
+#!/bin/bash
+
+adb shell am start -n com.beisen.italent/com.beisen.titamobile.ui.activity.SplashActivity
+sleep 4;
+
+adb shell input tap 445 800
+sleep 4;
+
+adb shell input tap 600 2000
+sleep 4;
